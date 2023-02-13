@@ -5,7 +5,7 @@ const { hed, dek, icon } = Astro.props;
 <div
   class="box flex grow flex-col gap-8 border-style border-gray-200 border-2 border-solid p-5 rounded-lg h-full"
 >
-  <div class="flex items-center justify-start gap-3">
+  <div class="flex items-start justify-start gap-3 flex-col">
     {icon && <div set:html={icon} />}
     <h4 class="text-sm font-sans text-blue-400 uppercase font-semibold">
       {hed}
@@ -19,6 +19,6 @@ const { hed, dek, icon } = Astro.props;
 <style>
   .box {
     max-width: 270px;
-    min-height: 280px;
+    min-height: 300px;
   }
 </style>
