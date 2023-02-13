@@ -1,0 +1,40 @@
+---
+import Title from "../atoms/Title.astro";
+import Poster from "../atoms/Poster.astro";
+import Highlight from "../atoms/Highlight.astro";
+import Lowlight from "../atoms/Lowlight.astro";
+---
+
+<div class="m-auto hero flex items-center justify-center flex-col w-full">
+  <Title />
+  <div class="flex justify-between w-full">
+    <div class="flex flex-col gap-10 justify-center items-start w-2/12">
+      <Lowlight
+        htmlString={"Summary"}
+        value={"I code and develop beautiful things, and I love what I do."}
+      />
+      <Lowlight
+        htmlString={"Contact"}
+        value={"Jakir Hussain <br /> itsjakirhussain@gmail.com <br /> +91 9629180060"}
+      />
+      <Lowlight
+        htmlString={"Service"}
+        value={"Web Development <br /> Website Maintenance <br /> Database Development <br /> API Development <br /> Cross-platform Development <br /> Cloud Deployment <br /> Technical Consultation"}
+      />
+    </div>
+    <Poster />
+    <div class="flex flex-col gap-10 justify-center items-end w-2/12">
+      <Highlight htmlString={"Years of <br /> Experience"} value={"5+"} />
+      <Highlight htmlString={"Satisfaction <br /> Clients"} value={"100%"} />
+      <Highlight htmlString={"Clients on Worldwide"} value={"15+"} />
+      <Highlight htmlString={"Projects Done"} value={"25+"} />
+    </div>
+  </div>
+</div>
+
+<style>
+  .hero {
+    min-height: calc(100vh - 66px);
+    padding-top: 66px;
+  }
+</style>
