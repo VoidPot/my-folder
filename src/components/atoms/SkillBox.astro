@@ -5,10 +5,10 @@ const { isTextRight = false } = Astro.props;
 
 <div
   class:list={[
-    "flex flex-col gap-2",
+    "flex flex-col gap-2 text-center",
     {
-      "text-left": !isTextRight,
-      "text-right": isTextRight,
+      "md:text-left": !isTextRight,
+      "md:text-right": isTextRight,
     },
   ]}
 >

@@ -1,86 +1,22 @@
-export const roleData = [
-  "Software Engineer",
-  "Javascript expert",
-  "Front-end Developer",
-  "Back-end Developer",
-  "Node JS Developer",
-  "React JS Developer",
-];
-
-export const boardData = [
-  {
-    title: "Years of Experience",
-    value: 5,
-    duration: 1,
-  },
-  {
-    title: "Projects worked",
-    value: 20,
-    duration: 2,
-  },
-  {
-    title: "Known Technology",
-    value: 50,
-    duration: 3,
-  },
-];
-
-export const docsData = {
-  download:
-    "https://file.jhussain.com/resume/jakir_hussain_resume_compressed.pdf",
-  hire_me: "https://www.upwork.com/freelancers/~01962ee1e2e11317a4",
+export const metaData = {
+  website: "JHussain.com",
+  title: "Jakir Hussain | Full-Stack Developer | Portfolio | JHussain.com",
+  description:
+    "As a Full Stack Developer, I have extensive experience in designing, developing, and deploying web applications that deliver an exceptional user experience. With my expertise in both front-end and back-end technologies, I am able to create web applications that are both functional and visually appealing. My technical skills includes JavaScript, TypeScript, ReactJS, NextJS, Astro, ExpressJS, MySQL, MongoDB, Postgres, GraphQL, Rest API, ERC Tokens, Solidity, HTML, CSS, SCSS and more.",
+  url: "https://jhussain.com",
+  image: "https://jhussain.com/share.jpg",
 };
-export const socialData = [
-  {
-    src: "/svg/github.svg",
-    height: 25,
-    width: 25,
-    alt: "GitHub",
-    href: "https://github.com/iam-hussain",
-  },
-  {
-    src: "/svg/gitlab.svg",
-    height: 25,
-    width: 25,
-    alt: "GitLab",
-    href: "https://gitlab.com/iam-hussain",
-  },
-  {
-    src: "/svg/upwork.svg",
-    height: 25,
-    width: 50,
-    alt: "UpWorks",
-    href: "https://www.upwork.com/freelancers/~01962ee1e2e11317a4",
-  },
-  {
-    src: "/svg/linkedin.svg",
-    height: 25,
-    width: 25,
-    alt: "LinkedIn",
-    href: "https://www.linkedin.com/in/iam-hussain",
-  },
-  {
-    src: "/svg/npm.svg",
-    height: 25,
-    width: 35,
-    alt: "NPM",
-    href: "https://www.npmjs.com/~iam-hussain",
-  },
-  {
-    src: "/svg/stackoverflow.svg",
-    height: 25,
-    width: 25,
-    alt: "StackOverFlow",
-    href: "https://stackoverflow.com/users/13712263/hussain",
-  },
-  {
-    src: "/svg/twitter.svg",
-    height: 25,
-    width: 25,
-    alt: "Twitter",
-    href: "https://twitter.com/_i_am_hussain",
-  },
-];
+
+export const links = {
+  github: "https://github.com/iam-hussain",
+  gitlab: "https://gitlab.com/iam-hussain",
+  linkedin: "https://www.linkedin.com/in/iam-hussain",
+  npm: "https://www.npmjs.com/~iam-hussain",
+  stackoverflow: "https://stackoverflow.com/users/13712263/hussain",
+  twitter: "https://twitter.com/_i_am_hussain",
+  cv: "https://file.jhussain.com/resume/jakir_hussain_resume_compressed.pdf",
+  upwork: "https://www.upwork.com/freelancers/~01962ee1e2e11317a4",
+};
 
 export const skillsData = [
   {
@@ -138,8 +74,4 @@ export const skillsData = [
       "Truffle / Hardhat",
     ],
   },
-  // {
-  //   title: "learning",
-  //   items: ["React Native", "Flutter / Dart"],
-  // },
 ];

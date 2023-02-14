@@ -1,4 +1,5 @@
 ---
+import { metaData } from "../../constant";
 const { isNavbarPostion = false } = Astro.props;
 ---
 
@@ -10,5 +11,5 @@ const { isNavbarPostion = false } = Astro.props;
     },
   ]}
 >
-  iam-Hussain.in
+  {metaData.website}
 </div>

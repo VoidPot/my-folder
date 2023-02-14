@@ -2,7 +2,7 @@
 const { htmlString, value } = Astro.props;
 ---
 
-<div class="text-right flex flex-col gap-2">
+<div class="text-center md:text-right flex flex-col gap-2 w-full">
   <p
     class="uppercase font-sans text-xs font-semibold text-rose-600"
     set:html={htmlString}

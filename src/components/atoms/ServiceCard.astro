@@ -7,9 +7,9 @@ const { hed, dek, icon } = Astro.props;
 >
   <div class="flex items-start justify-start gap-3 flex-col">
     {icon && <div set:html={icon} />}
-    <h4 class="text-sm font-sans text-rose-600 uppercase font-semibold">
+    <h3 class="text-sm font-sans text-rose-600 uppercase font-semibold">
       {hed}
-    </h4>
+    </h3>
   </div>
   <p class="text-left text-sm text-gray-600 font-mono">
     {dek}

@@ -5,10 +5,17 @@ import Highlight from "../atoms/Highlight.astro";
 import Lowlight from "../atoms/Lowlight.astro";
 ---
 
-<div class="m-auto hero flex items-center justify-center flex-col w-full">
+<div
+  class="m-auto hero flex items-center justify-center flex-col w-full"
+  id="home"
+>
   <Title />
-  <div class="flex justify-between w-full">
-    <div class="flex flex-col gap-10 justify-center items-start w-2/12">
+  <div
+    class="flex justify-center md:justify-between w-full md:flex-row flex-col-reverse items-center gap-10"
+  >
+    <div
+      class="flex flex-col gap-10 justify-center items-center md:items-start md:w-2/12 w-10/12"
+    >
       <Lowlight
         htmlString={"Summary"}
         value={"I code and develop beautiful things, and I love what I do."}
@@ -23,7 +30,9 @@ import Lowlight from "../atoms/Lowlight.astro";
       />
     </div>
     <Poster />
-    <div class="flex flex-col gap-10 justify-center items-end w-2/12">
+    <div
+      class="flex flex-col gap-10 justify-center items-end md:w-2/12 w-10/12"
+    >
       <Highlight htmlString={"Years of <br /> Experience"} value={"5+"} />
       <Highlight htmlString={"Satisfaction <br /> Clients"} value={"100%"} />
       <Highlight htmlString={"Clients on Worldwide"} value={"15+"} />
