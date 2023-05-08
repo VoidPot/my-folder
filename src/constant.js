@@ -1,10 +1,10 @@
 export const metaData = {
-  website: "JHussain.com",
-  title: "Jakir Hussain | Full-Stack Developer | Portfolio | JHussain.com",
+  website: "iam-Hussain.com",
+  title: "Jakir Hussain | Full-Stack Developer | Portfolio | iam-Hussain.com",
   description:
     "As a Full Stack Developer, I have extensive experience in designing, developing, and deploying web applications that deliver an exceptional user experience. With my expertise in both front-end and back-end technologies, I am able to create web applications that are both functional and visually appealing. My technical skills includes JavaScript, TypeScript, ReactJS, NextJS, Astro, ExpressJS, MySQL, MongoDB, Postgres, GraphQL, Rest API, ERC Tokens, Solidity, HTML, CSS, SCSS and more.",
-  url: "https://jhussain.com",
-  image: "https://jhussain.com/share.jpg",
+  url: "https://iam-hussain.site",
+  image: "https://iam-hussain.site/share.jpg",
 };
 
 export const links = {
@@ -14,7 +14,7 @@ export const links = {
   npm: "https://www.npmjs.com/~iam-hussain",
   stackoverflow: "https://stackoverflow.com/users/13712263/hussain",
   twitter: "https://twitter.com/_i_am_hussain",
-  cv: "https://file.jhussain.com/resume/jakir_hussain_resume_compressed.pdf",
+  cv: "https://file.iam-hussain.site/resume/jakir_hussain_resume_compressed.pdf",
   upwork: "https://www.upwork.com/freelancers/~01962ee1e2e11317a4",
 };
 
