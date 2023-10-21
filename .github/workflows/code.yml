@@ -1,4 +1,4 @@
-name: Deploy and Build
+name: Build and Deployment
 
 on: [push]
 
@@ -16,8 +16,8 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
 
-    deploy:
-      name: Deploy
+    deployment:
+      name: Deployment
       needs: build
       runs-on: ubuntu-latest
 
