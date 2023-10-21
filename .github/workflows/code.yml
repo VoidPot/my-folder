@@ -28,4 +28,8 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
-          script: whoami
+          script: |
+            cd /root/projects/my-folder
+            git pull
+            npm ci
+            npm run build
