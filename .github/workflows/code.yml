@@ -31,5 +31,6 @@ jobs:
           script: |
             cd /root/projects/my-folder
             git pull
+            nvm use 20
             npm ci
             npm run build
