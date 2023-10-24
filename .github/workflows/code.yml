@@ -33,6 +33,7 @@ jobs:
             source ~/.nvm/nvm.sh
             nvm use 18
             cd /root/projects/my-folder
+            git checkout .
             git pull
             npm ci
             npm run build
