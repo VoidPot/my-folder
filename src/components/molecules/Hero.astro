@@ -3,6 +3,7 @@ import Title from "../atoms/Title.astro";
 import Poster from "../atoms/Poster.astro";
 import Highlight from "../atoms/Highlight.astro";
 import Lowlight from "../atoms/Lowlight.astro";
+import MobileSocial from "../atoms/MobileSocial.astro";
 ---
 
 <div
@@ -10,8 +11,9 @@ import Lowlight from "../atoms/Lowlight.astro";
   id="home"
 >
   <Title />
+  <MobileSocial />
   <div
-    class="flex justify-center md:justify-between w-full md:flex-row flex-col-reverse items-center gap-10"
+    class="flex justify-center md:justify-between w-full md:flex-row flex-col-reverse items-center gap-8 md:gap-10"
   >
     <div
       class="flex flex-col gap-5 md:gap-10 justify-center items-center md:items-start md:w-2/12 w-10/12"
@@ -31,12 +33,12 @@ import Lowlight from "../atoms/Lowlight.astro";
     </div>
     <Poster />
     <div
-      class="flex flex-col gap-5 md:gap-10 justify-center items-end md:w-2/12 w-10/12"
+      class="flex flex-row md:flex-col gap-3 md:gap-10 justify-center items-end md:w-2/12 w-10/12"
     >
       <Highlight htmlString={"Years of <br /> Experience"} value={"5+"} />
-      <Highlight htmlString={"Satisfaction <br /> Clients"} value={"100%"} />
-      <Highlight htmlString={"Clients on Worldwide"} value={"15+"} />
-      <Highlight htmlString={"Projects Done"} value={"25+"} />
+      <Highlight htmlString={"Clients <br /> Satisfaction"} value={"100%"} />
+      <Highlight htmlString={"Clients <br /> Worldwide"} value={"15+"} />
+      <Highlight htmlString={"Projects <br /> Worked"} value={"25+"} />
     </div>
   </div>
 </div>

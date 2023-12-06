@@ -4,7 +4,7 @@ const { htmlString, value, isTextRight = false } = Astro.props;
 
 <div
   class:list={[
-    "flex flex-col gap-2 w-full text-center",
+    "flex flex-col gap-2 w-auto md:w-full text-center",
     {
       "md:text-left": !isTextRight,
       "md:text-right": isTextRight,
@@ -16,7 +16,7 @@ const { htmlString, value, isTextRight = false } = Astro.props;
     set:html={htmlString}
   />
   <span
-    class="font-mono text-xs font-medium text-gray-600 leading-7"
+    class="font-mono text-xs font-medium text-gray-600 leading-5 md:leading-7"
     set:html={value}
   />
 </div>
