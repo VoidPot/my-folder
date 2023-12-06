@@ -12,11 +12,11 @@ const { htmlString, value, isTextRight = false } = Astro.props;
   ]}
 >
   <p
-    class="uppercase font-sans text-xs font-semibold text-rose-600"
+    class="uppercase font-sans text-sm font-semibold text-rose-600"
     set:html={htmlString}
   />
   <span
-    class="font-mono text-xs font-medium text-gray-600 leading-5 md:leading-7"
+    class="font-mono text-sm font-medium text-gray-600 leading-5"
     set:html={value}
   />
 </div>
